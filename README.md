@@ -2,8 +2,7 @@
 
 # Project setup
    open terminal
-1. Clone the repo:
-   git clone https://github.com/Himanshu-coding-wallah/Patient-Record.git
+1. Clone the repo -> git clone https://github.com/Himanshu-coding-wallah/Patient-Record.git
    
    goto your project -> cd Patient-Record
    
