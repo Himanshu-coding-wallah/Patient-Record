@@ -5,14 +5,11 @@
 1. Clone the repo:
    git clone https://github.com/Himanshu-coding-wallah/Patient-Record.git
    
-   goto your project
-   cd Patient-Record
+   goto your project -> cd Patient-Record
    
-3. install dependencies
-   npm install
+3. install dependencies -> npm install
 
-4. start the project
-   npm run dev
+4. start the project -> npm run dev
 
 # screenshots
 
