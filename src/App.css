@@ -1,0 +1,166 @@
+/* Header css */
+#header {
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 4vw;
+}
+
+#header h1 {
+  font-size: 2rem;
+  color: #3365C4;
+}
+
+#links {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 400;
+  color: #000;
+}
+
+/* Home css */
+#main {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
+#main h1 {
+  font-size: clamp(2rem, 6vw, 4rem);
+  color: #3365C4;
+}
+
+#main h3 {
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  font-weight: 500;
+  color: #172F78;
+}
+
+#main div {
+  width: 100%;
+  max-width: 600px;
+  font-size: 1rem;
+  margin: 1rem 0 2rem;
+}
+
+#main div p {
+  font-weight: 400;
+  color: #1E3A8A;
+}
+
+button {
+  padding: 0.8rem 1.5rem;
+  border-radius: 50px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 400;
+  background-color: #2C56BE;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* About Css */
+#about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  text-align: center;
+  padding: 20px;
+}
+
+#aboutus {
+  max-width: 800px;
+  font-size: 1rem;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+/* Patient Details Box */
+#patient-details {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  text-align: left;
+  font-family: Arial, sans-serif;
+}
+
+#patient-details h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+#patient-details p {
+  margin: 8px 0;
+  font-size: 1rem;
+  color: #555;
+}
+
+#patient-details strong {
+  color: #222;
+}
+
+/* Patient List */
+#patient-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 16px;
+  padding: 20px;
+}
+
+.patient-card {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.patient-card p {
+  margin: 6px 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+.patient-card strong {
+  color: #172F78;
+}
+
+.patient-card button {
+  margin-top: 12px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 50px;
+  background: #2C56BE;
+  color: white;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+/* Search Box */
+#inputbox {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+#inputbox input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
